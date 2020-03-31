@@ -1,0 +1,492 @@
+/*Starter css code*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/*Starter css code*/
+/*Header css code*/
+header {
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.navbar {
+    padding: 20px 0px;
+}
+
+.navbar .navbar-nav li {
+    padding: 0px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+    background: url(images/br.png) center bottom no-repeat;
+    color: #008ed6;
+}
+
+/*Banner css code*/
+.banner {
+    margin-top: 60px;
+}
+
+.banner .banner-inner h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.banner .banner-inner h2 {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner .banner-inner p {
+    color: #9D9D9D;
+    margin-bottom: 60px;
+}
+
+.banner .banner-inner .double-button button {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/*Banner css code*/
+
+/*Header css code*/
+
+/*Feature css code*/
+#feature {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+#feature .title {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+
+#feature .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#feature .title h2 {
+    font-weight: 600;
+}
+
+#feature .feature-box {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#feature .feature-box .circle {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+#feature .feature-box h4 {
+    font-size: 1.3rem;
+    margin: 20px 0px;
+}
+
+/*Feature css code*/
+
+/*About long css code*/
+#about-long {
+    padding: 80px 0px;
+}
+
+#about-long .about-img img {
+    width: 100%;
+}
+
+#about-long .title {
+    margin-top: 50px;
+    width: 100%;
+    text-align: left;
+}
+
+#about-long .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#about-long .title h2 {
+    font-weight: 600;
+}
+
+#about-long p {
+    color: #9D9D9D;
+    margin-top: 10px;
+}
+
+#about-long .about-list li {
+    margin: 10px 0px;
+}
+
+#about-long .about-list li .list-img {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+#about-long .about-list li span {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+/*About long css code*/
+/*About short css code*/
+#about-short {
+    padding: 60px 0px;
+    background-color: #f2f2f2;
+}
+
+#about-short .about-img img {
+    width: 100%;
+}
+
+#about-short .title {
+    margin-top: 100px;
+    width: 100%;
+    text-align: left;
+}
+
+#about-short .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#about-short .title h2 {
+    font-weight: 600;
+}
+
+#about-short p {
+    color: #9D9D9D;
+    margin-top: 10px;
+}
+
+/*About short css code*/
+
+/*Testimonial css code*/
+#testimoni {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+#testimoni .title {
+    margin: 40px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#testimoni .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#testimoni .title h2 {
+    font-weight: 600;
+    color: #FFF;
+}
+
+/*Testimonial css code*/
+
+/*Call to action css code*/
+#ctoa {
+    padding: 40px 0px;
+    background-color: #000000;
+}
+
+#ctoa h2 {
+    color: #FFF;
+    font-weight: 100;
+}
+
+#ctoa h2 b {
+    font-weight: 600;
+}
+
+#ctoa .double-button button {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/*Call to action css code*/
+
+/*Pricing and Plan css code*/
+#p_p {
+    padding: 40px 0px;
+}
+
+#p_p .title {
+    margin: 60px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#p_p .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#p_p .title h2 {
+    font-weight: 600;
+}
+
+#p_p .plan-inner {
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+#p_p .plan-inner .plan-title h4 {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#p_p .plan-inner .plan-price {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0px;
+}
+
+#p_p .plan-inner .plan-price h2 {
+    font-weight: 500;
+    font-size: 3.5rem;
+    vertical-align: top;
+    margin-bottom: 0px;
+}
+
+#p_p .plan-inner .plan-price h2 span {
+    font-weight: normal;
+    font-size: 1.2rem;
+    vertical-align: top;
+    color: #000;
+}
+#p_p .plan-inner .plan-price span{
+    color: #aaa;
+}
+#p_p .plan-inner .plan-info{
+    padding: 20px 0px;
+    color: #aaa;
+}
+#p_p .plan-inner .plan-btn{
+    padding: 20px 0px;
+}
+#p_p .plan-inner .plan-btn .btn{
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    color: #008ed6;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+/*Active code*/
+#p_p .active .plan-title h4{
+    color: #008ed6;
+}
+#p_p .active .plan-price{
+    background-color: #008ed6;
+    color: #FFF;
+}
+#p_p .active .plan-price h2 span{
+    color: #FFF;
+}
+#p_p .active .plan-price span{
+    background-color: #008ed6;
+    color: #FFF;
+}
+#p_p .active .plan-btn .btn{
+    background-color: #008ed6;
+    color: #FFF;
+}
+/*Active code*/
+#p_p .plan-inner:hover .plan-title h4{
+    color: #008ed6;
+}
+#p_p .plan-inner:hover .plan-price{
+    background-color: #008ed6;
+    color: #FFF;
+}
+#p_p .plan-inner:hover .plan-price span{
+    background-color: #008ed6;
+    color: #FFF;
+}
+#p_p .plan-inner:hover .plan-btn .btn{
+    background-color: #008ed6;
+    color: #FFF;
+}
+/*Pricing and Plan css code*/
+
+/*Contact Us css code*/
+#contact-us{
+    background-color: #ededed;
+}
+#contact-us .title {
+    margin: 60px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-us .title h4 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#contact-us .title h2 {
+    font-weight: 600;
+}
+#contact-us .phn, #contact-us .location, #contact-us .mail{
+    text-align: center;
+}
+
+#contact-us .phn img, #contact-us .location img, #contact-us .mail img{
+    margin-bottom: 30px;
+}
+
+#contact-us .phn p, #contact-us .location p, #contact-us .mail p{
+    color: #aaa;
+}
+
+#contact-us .contact-form{
+    margin: 50px 0px;
+}
+
+#contact-us .contact-form .input-area input{
+    width: 95%;
+    display: block;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+#contact-us .contact-form .massage-area textarea{
+    width: 100%;
+    height: 180px;
+    display: block;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+#contact-us .contact-form .massage-area button{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+/*Contact Us css code*/
+
+/*Footer css code*/
+footer{
+    background-color: #000;
+    padding: 10px 0px;
+}
+
+footer .nav .nav-item .nav-link{
+    color: #444;
+}
+footer .nav .nav-item .nav-link:hover{
+    color: #008ed6;
+}
+
+footer .copy-text{
+    text-align: center;
+}
+/*Footer css code*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
