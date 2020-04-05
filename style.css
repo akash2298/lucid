@@ -41,7 +41,7 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:active {
+.navbar-dark .navbar-nav .nav-link.active {
     background: url(images/br.png) center bottom no-repeat;
     color: #008ed6;
 }
@@ -242,6 +242,25 @@ header {
     font-weight: 600;
     color: #FFF;
 }
+.owl-carousel{
+    display: block;
+}
+.testimonial-inner{
+    color: #FFF;
+}
+.testimonial-inner p{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.testimonial-inner .pro-info{
+    margin-left: 20px;
+}
+.testimonial-inner .pro-info span{
+    color: #aaa;
+}
+.testimonial-inner .pro-info h4{
+    font-size: 1.2rem;
+}
 
 /*Testimonial css code*/
 
@@ -344,26 +363,8 @@ header {
     font-weight: 600;
     padding: 10px 30px;
 }
-/*Active code*/
-#p_p .active .plan-title h4{
-    color: #008ed6;
-}
-#p_p .active .plan-price{
-    background-color: #008ed6;
-    color: #FFF;
-}
-#p_p .active .plan-price h2 span{
-    color: #FFF;
-}
-#p_p .active .plan-price span{
-    background-color: #008ed6;
-    color: #FFF;
-}
-#p_p .active .plan-btn .btn{
-    background-color: #008ed6;
-    color: #FFF;
-}
-/*Active code*/
+
+/*hover code*/
 #p_p .plan-inner:hover .plan-title h4{
     color: #008ed6;
 }
@@ -379,6 +380,7 @@ header {
     background-color: #008ed6;
     color: #FFF;
 }
+/*hover code*/
 /*Pricing and Plan css code*/
 
 /*Contact Us css code*/
